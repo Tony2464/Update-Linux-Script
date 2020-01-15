@@ -1,4 +1,3 @@
-#!/bin/sh
 echo 'UPGRADING'
-apt -y update && apt upgrade
+apt update -y && apt upgrade
 echo 'UPGRADE DONE'
