@@ -1,3 +1,3 @@
 echo 'UPGRADING'
-apt update -y && apt upgrade
+apt update && apt upgrade -y && apt full-upgrade
 echo 'UPGRADE DONE'
